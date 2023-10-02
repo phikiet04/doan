@@ -1,0 +1,300 @@
+body{
+  padding: 10px;
+}
+header{
+    position: fixed;
+    display: flex;
+    background-color: #fff;
+    gap: 6rem;
+    height: 70px;
+    right: 0;
+    left: 0;
+   
+     
+
+}
+header ul{
+    display: flex;
+    gap :4rem;
+    font-size: 17px;
+    padding: 2rem;
+    position: absolute;
+    left: 8%;
+}
+header li{
+    list-style: none;
+}
+header li a{
+    color: #686868;
+}
+.label{
+    position: absolute;
+    left: 45%;
+    color: #686868;
+    font-size: 10px;
+
+}
+.logo{
+    position: absolute;
+    top: 1rem;
+    left: 45%;
+    padding: 1rem;
+    
+}
+.logo img{
+    width: 120px;
+    height: 18px;
+}
+.favourite{
+   position: absolute;
+   left: 78%;
+   top: 1rem;
+   gap: 4rem;
+   display: block;
+
+  
+}
+.favourite a{
+    color:#686868;
+}
+.favourite img{
+   width: 15%;
+  
+}
+.label1{
+    color: #DC9814;
+    position: absolute;
+    left: 44%;
+    top: 1rem;
+}
+hr{
+    color: black;
+    position: absolute;
+    top: 10px;
+}
+.f{
+    position: absolute;
+    top: 100px;
+}
+.slider-container{
+    height: 95%;
+    width: 100%;
+    position: relative;
+    overflow: hidden; 
+    text-align: center;
+    position: absolute;
+    top: 80px;
+  }
+  
+  .menu {
+    position: absolute;
+    left: 4cm;
+    top: 14.5cm;
+    z-index: 800;
+   
+  }
+  
+  .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #a1a1a1;
+    border-radius: 50px;
+    margin: 0 .2em 1em;
+    transition: all .1s ease;
+    &:hover {
+      background: #DC9814;
+    }
+  }
+  
+  .slide {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s .75s;
+  }
+  
+  [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+  }
+  
+  .slide-1 {
+    background-image: url("https://savoy.nordicmade.com/wp-content/uploads/2015/08/slider-pendant-lighting.jpg");
+  }
+  .slide-2 {
+    background-image: url("https://savoy.nordicmade.com/wp-content/uploads/2015/08/slider-wall-clock.jpg");
+  }
+  .slide-3 {
+    background-image: url("https://savoy.nordicmade.com/wp-content/uploads/2015/08/slider-basket.jpg");
+  }
+  .nm-banner-title{
+    position: absolute;
+    top: 6.5cm;
+    left: 5cm;
+    color: #fff;
+    font-size: 25px;
+   
+  }
+  .nm-banner-link{
+    position: absolute;
+    top: 8cm;
+    left: 5cm;
+    font-size: 18px;
+    color: #a1a1a1;
+
+  }
+  .nm-banner-title2{
+    position: absolute;
+    top: 6.5cm;
+    left: 5cm;
+    color: black;
+    font-size: 25px;
+   
+  }
+  .header2{
+    position: absolute;
+    top :19cm;
+    left: 3.5cm;
+ 
+
+  }
+  .right-list{
+    display: flex;
+    gap: 3rem;
+    
+
+  }
+  .right-list li{
+    list-style: none;
+    font-size: 20px;
+  }
+  .right-list a{
+    color: #a1a1a1;;
+  }
+  .left-list{
+    position: absolute;
+    top: 19cm;
+    display: flex;
+    gap: 3rem;
+    right: 5cm;
+    
+  }
+  .left-list li{
+    list-style: none;
+    font-size: 20px;
+  }
+  .left-list a{
+    color: #a1a1a1;;
+  }
+  .search{
+    position: absolute;
+    top: 20cm;
+    left: 4.5cm;
+    width: 80%;
+    height: 10%;
+    font-size: 25px;
+    border: 0px solid #fff;
+    border-radius: 5px;
+  }
+  .item{
+    height: 350px;
+    width: 750px;
+  }
+  .item01{
+    border: 1px solid black;
+    height: 400px;
+    width: 235px;
+
+  }
+  .main img{
+    height: 300px;
+    width: 250px;
+  }
+  .container{
+    position: absolute;
+    top: 22cm;
+    left: 4cm;
+    display: flex;
+    gap: 4rem;
+
+  }
+  .item1 p{
+    padding: 1rem;
+    
+  }
+  .item1 a{
+    position: absolute;
+    top: 8.3cm;
+    left: 7.5cm;
+    color: black;
+  }
+  .item2 p{
+    padding: 1rem;
+    
+  }
+  .item2 a{
+    position: absolute;
+    top: 8.3cm;
+    left: 7.5cm;
+    color: black;
+  }
+  .item3 p{
+    padding: 1rem;
+    
+  }
+  .item3 a{
+    position: absolute;
+    top: 8.3cm;
+    left: 7.5cm;
+    color: black;
+  }
+  .item4 p{
+    padding: 1rem;
+    
+  }
+  .item4 a{
+    position: absolute;
+    top: 8.3cm;
+    left: 7.5cm;
+    color: black;
+  }
+  .container2{
+    display: flex;
+    position: absolute;
+    top:35cm;
+    gap :4rem;
+    left: 5.5cm;
+  }
+
+  
+  footer{
+    background-color: black;
+    height: 70px;
+    position: relative;
+    top: 50cm;
+  }
+  .wap{
+    position: absolute;
+    left: 3cm;
+    display: flex;
+    gap: 3rem;
+    padding: 2.5rem;
+  }
+  .wap li{
+    list-style: none;
+  }
+  .wap a{
+    font-size: 15px;
+    color: #a1a1a1;
+  }
+  
+  
